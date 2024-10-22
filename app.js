@@ -7,14 +7,15 @@ console.log('Primi passi col DOM')
 
 const light = document.getElementById('accendi')
 
-myButton.addEventListener('click',function(){
-    console.log('ho cliccato')
-    light element.addEventListener()
+light.addEventListener('click', function(){
+    console.log('hai acceso la lampadina')
+    let img = document.createElement("img");
+    img.src = "img/yellow_lamp.png";
     }
 )
 
 
-//myButton.addEventListener
+
 
 
 
