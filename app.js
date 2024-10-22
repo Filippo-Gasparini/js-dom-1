@@ -13,7 +13,7 @@ const light = document.getElementById('accendi')
 const image = document.getElementById('img')
 
 // vado a eseguire lo spegnimento della lampadina
-
+const lightOff = document.getElementById('spegni')
 // eseguo la funzione
 
 light.addEventListener('click', function () {
@@ -22,8 +22,9 @@ light.addEventListener('click', function () {
 })
 
 
-light.addEventListener('click',function(){
+lightOff.addEventListener('click',function(){
     console.log('hai spento la lampadina')
+    image.src = "img/white_lamp.png"
 })
 
 

@@ -1,8 +1,27 @@
-button {
-    border-radius: 5em;
-    background-color: yellow;
-    border: 5px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+.accendi {
+  background-color: yellow;
+  border-radius: 5em;
+  border: 13em;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
 
 }
+
+.spenta {
+    background-color: rgb(188, 188, 182);
+  border-radius: 5em;
+  border: 13em;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+   
+}
+
+body {
+    background-color: azure;
+}
+
+
